@@ -1,0 +1,27 @@
+body{
+    background-image: url('lostin.jpg'); /* Correctly setting the background image */
+    background-repeat: no-repeat; /* No repeat */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fixed background */
+    background-size: cover; /* Cover the entire viewport */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+a{
+    color:#1e90ff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
